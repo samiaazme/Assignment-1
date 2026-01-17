@@ -112,6 +112,11 @@ nav .menu a:hover {
   border: none;
   cursor: pointer;
 }
+.btn:hover {
+  background-color: #44755b;
+  transform: translate(2px);
+  box-shadow: 0 9px 19px rgba(0, 0, 0, 0.2);
+}
 .text-content .btn_1 {
   color: #ffffff;
   background-color: transparent;
@@ -121,12 +126,12 @@ nav .menu a:hover {
 .notes-heading {
   text-align: center;
 }
-.notes-heading h3{
+.notes-heading h3 {
   padding-top: 30px;
   font-size: 48px;
   font-weight: 700;
 }
-.notes-heading p{
+.notes-heading p {
   padding-top: 16px;
   font-size: 16px;
   font-weight: 400;
@@ -139,15 +144,13 @@ nav .menu a:hover {
   padding-top: 44px;
   gap: 26px;
 }
-/* .card-details {
-  align-items: center;
-} */
-.icons{
+
+.icons {
   padding: 9px 11px;
-  background-color: #F95555;
+  background-color: #f95555;
   border-radius: 1000px;
   margin-top: 69.5px;
-  margin-left: 131px; 
+  margin-left: 131px;
 }
 .card-details {
   width: 296px;
@@ -156,10 +159,10 @@ nav .menu a:hover {
   box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
 }
-.card-details p{
+.card-details p {
   width: 274px;
   margin-top: 10px;
-  color:#627382;
+  color: #627382;
   font-weight: 400;
   line-height: 20px;
 }
@@ -169,11 +172,11 @@ nav .menu a:hover {
 /* Brain image section Starts here */
 
 .brain_section {
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 60px;
- padding: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 120px;
 }
 .side_heading {
   font-weight: 500;
@@ -190,18 +193,74 @@ nav .menu a:hover {
   color: #001931;
   margin-bottom: 10px;
 }
-.side_content p{
+.side_content p {
   color: #627382;
   font-size: 16px;
   font-weight: 400;
 }
-.side_list{
+.side_list {
   list-style: none;
   padding-top: 36px;
 }
-.side_list img{
+.side_list img {
   vertical-align: middle;
 }
 .side_list li {
   padding-bottom: 10px;
+}
+
+/* Brain Section Ends Here. */
+
+/* Challange part */
+.early_start {
+  text-align: center;
+  background-color: #f7f6f2;
+  margin: 120px;
+  padding: 80px;
+}
+.early_start h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  padding-bottom: 16px;
+}
+.early_start p {
+  color: #627382;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+.early_end p {
+  padding-top: 16px;
+}
+/* Footer part */
+.last {
+  background-color: #001931;
+}
+.start_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 84px 120px;
+}
+.footer_content {
+  color: #ffffff;
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 28px;
+}
+#text {
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.end_part {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 0px;
+}
+hr {
+  margin: 0 120px;
 }
